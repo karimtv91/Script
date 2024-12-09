@@ -35,3 +35,5 @@ exclude=kubelet kubeadm kubectl cri-tools kubernetes-cni
 EOF
 
 dnf install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
+
+https://github.com/techiescamp/kubeadm-scripts
